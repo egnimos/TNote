@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Background Image with Cover-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/carousel_framelayout">
+
+    <ImageView
+        android:id="@+id/carousel_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/carousel_image_for_introduction"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <!-- Dark Overlay-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0.5"/>
+
+    <!-- Intro data-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <!-- Title-->
+        <TextView
+            android:id="@+id/carousel_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_noteapp"
+            android:textSize="32sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingBottom="10dp"/>
+
+        <!-- Description-->
+        <TextView
+            android:id="@+id/carousel_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_noteapp_desc"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

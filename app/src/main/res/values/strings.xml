@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="carousel_image_for_introduction">carousel Image for Introduction</string>
+    <string name="welcome_to_noteapp">Welcome To NoteApp</string>
+    <string name="welcome_to_noteapp_desc">Welcome to note a place where you can write an create a reminder to manage task in a playful way</string>
+</resources>
